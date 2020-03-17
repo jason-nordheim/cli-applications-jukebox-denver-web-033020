@@ -16,7 +16,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def help
+def help() 
   puts "I accept the following commands:"
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
@@ -44,7 +44,7 @@ def list(songs_ary)
   songs_ary.each_with_index { | song, index | puts "#{index + 1}. #{song}" }
 end
 
-def exit_jukebox() 
+def exit_jukebox()
   puts "Goodbye "
 end
 
