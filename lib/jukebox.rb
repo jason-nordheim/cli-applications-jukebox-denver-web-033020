@@ -54,7 +54,7 @@ def run
     case
     when input == "help" then help()
     when input == "play" then play(songs)
-    when input == "list"
+    when input == "list" then list(songs)
     end
   end
   exit_jukebox()
