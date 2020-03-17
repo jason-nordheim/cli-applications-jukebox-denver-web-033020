@@ -27,8 +27,8 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  song = response.find { |i| i == response }
-  puts song 
+  song = songs_ary.find { |i| i == response }
+  puts song
   if song
     puts "Playing #{song}"
   else
