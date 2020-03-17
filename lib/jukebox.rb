@@ -44,7 +44,7 @@ def list(songs_ary)
   songs_ary.each_with_index { | song, index | puts "#{index + 1}. #{song}" }
 end
 
-def exit_jukebox
+def exit_jukebox() 
   puts "Goodbye "
 end
 
