@@ -51,13 +51,12 @@ end
 def run(songs_ary)
   exit = false
   while !exit
+    input = get_command() 
     case
     when input == "help" then help()
     when input == "play" then play(songs_ary)
     when input == "list" then list(songs_ary)
     when input == "exit" then exit = true
-    else
-
     end
   end
   exit_jukebox()
