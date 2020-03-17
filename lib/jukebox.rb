@@ -27,7 +27,7 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  puts response
+  puts response.class
   puts response
 end
 
