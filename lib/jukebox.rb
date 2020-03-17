@@ -31,9 +31,9 @@ def play(songs_ary)
   if song
     puts "Playing #{song}"
   else
-    i = response.to_i() + 1
-    if i < songs_ary.count + 1 and i > 0
-      puts "Playing #{songs_ary[i - 2]}"
+    i = response.to_i()
+    if i < songs_ary.count and i > 0
+      puts "Playing #{songs_ary[i - 1]}"
     else
       puts "Invalid input, please try again"
     end
