@@ -27,8 +27,10 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  puts response.to_i().class 
-  puts response
+  song = response.find? { | song | song == response }
+  if song 
+    puts "Playing #{song}"
+  end
 end
 
 def list(songs_ary)
