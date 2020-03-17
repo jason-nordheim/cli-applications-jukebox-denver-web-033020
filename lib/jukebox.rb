@@ -50,14 +50,14 @@ end
 
 def run
   input = nil
-  while input != EXIT do
+  while input != "exit" do
     puts 'Please enter a command:'
     input = gets.strip()
-    if input == HELP
+    if input == "help"
       help()
     elsif input == LIST
       list(songs)
-    elsif input == PLAY
+    elsif input == "play"
       play(songs)
     end
   end
