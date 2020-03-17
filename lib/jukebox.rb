@@ -32,7 +32,7 @@ def play(songs_ary)
   elsif songs_ary.find? { | x | x == response }
      song = songs_ary.find? { | x | x == response }
      puts "Playing #{song}"
-  else 
+  else
     puts "Invalid Input, please try later"
   end
 end
