@@ -27,7 +27,7 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  if response.to_i() > 0 and response.to_i() < song
+  if response.to_i() > 0 and response.to_i() < songs_ary.count + 1 
 
     end
   end
