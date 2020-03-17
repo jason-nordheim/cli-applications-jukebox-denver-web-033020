@@ -24,8 +24,13 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(song)
-
+def play(songs_ary)
+  puts "Please enter a song name or number:"
+  response = gets.strip() 
+  if response.to_i() > 0 and response.to_i() < song
+      
+    end
+  end
 end
 
 def list(songs_ary)
