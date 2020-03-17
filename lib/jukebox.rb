@@ -52,11 +52,11 @@ def run
   exit = false
   while !exit
     case
-    when input == "help"
+    when input == "help" then help() 
     when input == "play"
     when input == "list"
     end
-  end 
+  end
   exit_jukebox()
 end
 
