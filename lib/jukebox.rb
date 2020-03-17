@@ -50,5 +50,10 @@ end
 
 def run
   puts 'Please enter a command:'
-  input = gets.strip() 
+  input = gets.strip()
+  while input != EXIT do
+    if input == HELP
+      help()
+    end
+  end 
 end
