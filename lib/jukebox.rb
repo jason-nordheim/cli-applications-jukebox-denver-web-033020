@@ -53,7 +53,7 @@ def run
   while !exit
     case
     when input == "help" then help() 
-    when input == "play"
+    when input == "play" then play(songs)
     when input == "list"
     end
   end
