@@ -5,15 +5,14 @@ PLAY = "play" # play --> should ask the user to input the name of a song OR a tr
 EXIT = "exit" # exit --> should say goodbye, and end the program
 
 def help
-  
 end
 
-def play 
-end 
+def play
+end
 
 def list
-  
+
 end
 
-def exit_jukebox 
-end 
+def exit_jukebox
+end
