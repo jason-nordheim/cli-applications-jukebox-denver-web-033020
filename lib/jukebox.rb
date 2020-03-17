@@ -1,4 +1,2 @@
 
-commands = {
-  
-}
+commands = ["help","list","play"]
