@@ -52,17 +52,14 @@ def run
   input = nil
   puts 'Please enter a command:'
   input = gets.strip()
-  case input
-  when "help"
-  when "play"
-
-  end
-  if input == "help"
-    help()
-  elsif input == LIST
-    list(songs)
-  elsif input == "play"
-    play(songs)
+  case
+  when input == "help"
+  when input == "play"
+  when input == "list"
   end
   exit_jukebox()
 end
+
+def get_command()
+
+end 
