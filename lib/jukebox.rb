@@ -28,13 +28,13 @@ def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
   song = response.find? { | song | song == response }
-  if song 
+  if song
     puts "Playing #{song}"
   else
-    song_index = response.to_i() + 1 
-    if song_index < songs_ary.count and song_index > 0 
-      
-    end 
+    song_index = response.to_i() + 1
+    if song_index < songs_ary.count and song_index > 0
+
+    end
   end
 end
 
