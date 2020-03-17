@@ -27,7 +27,7 @@ end
 def play
 end
 
-def list(songs)
+def list(songs_ary)
 
 end
 
