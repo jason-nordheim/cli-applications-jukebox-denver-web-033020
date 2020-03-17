@@ -27,9 +27,10 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  if response.to_i() > 0 and response.to_i() < songs_ary.count + 1 
-
-    end
+  if response.to_i() > 0 and response.to_i() < songs_ary.count + 1
+    puts "Playing #{songs_ary.at(response.to_i())}"
+  else
+    puts "Invalid Input, please try later"
   end
 end
 
@@ -38,6 +39,7 @@ def list(songs_ary)
 end
 
 def exit_jukebox
+  puts "Goodbye "
 end
 
 def run
