@@ -24,7 +24,8 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
+def play(song)
+
 end
 
 def list(songs_ary)
