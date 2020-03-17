@@ -49,17 +49,18 @@ def exit_jukebox()
 end
 
 def run
-  input = nil
-  puts 'Please enter a command:'
-  input = gets.strip()
-  case
-  when input == "help"
-  when input == "play"
-  when input == "list"
-  end
+  exit = false
+  while !exit
+    case
+    when input == "help"
+    when input == "play"
+    when input == "list"
+    end
+  end 
   exit_jukebox()
 end
 
 def get_command()
-
-end 
+  puts 'Please enter a command:'
+  input = gets.strip()
+end
