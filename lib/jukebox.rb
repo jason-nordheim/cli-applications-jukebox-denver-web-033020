@@ -55,9 +55,9 @@ def run(songs_ary)
     when input == "help" then help()
     when input == "play" then play(songs)
     when input == "list" then list(songs)
-    when input == "exit" then exit = true 
-    else 
-      
+    when input == "exit" then exit = true
+    else
+
     end
   end
   exit_jukebox()
