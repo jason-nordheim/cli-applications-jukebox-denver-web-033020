@@ -52,6 +52,11 @@ def run
   input = nil
   puts 'Please enter a command:'
   input = gets.strip()
+  case input
+  when "help"
+  when "play"
+
+  end
   if input == "help"
     help()
   elsif input == LIST
