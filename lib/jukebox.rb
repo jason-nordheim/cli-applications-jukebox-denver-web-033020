@@ -55,5 +55,6 @@ def run
     if input == HELP
       help()
     end
-  end 
+  end
+  exit_jukebox() 
 end
