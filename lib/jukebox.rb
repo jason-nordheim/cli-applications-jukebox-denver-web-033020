@@ -48,13 +48,16 @@ def exit_jukebox()
   puts "Goodbye "
 end
 
-def run
+def run(songs_ary)
   exit = false
   while !exit
     case
     when input == "help" then help()
     when input == "play" then play(songs)
     when input == "list" then list(songs)
+    when input == "exit" then exit = true 
+    else 
+      
     end
   end
   exit_jukebox()
