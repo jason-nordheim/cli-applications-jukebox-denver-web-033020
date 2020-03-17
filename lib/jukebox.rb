@@ -27,14 +27,8 @@ end
 def play(songs_ary)
   puts "Please enter a song name or number:"
   response = gets.strip()
-  if response.to_i() > 0 and response.to_i() < songs_ary.count + 1
-    puts "Playing #{songs_ary.at(response.to_i() + 1)}"
-  elsif songs_ary.find? { | x | x == response }
-     song = songs_ary.find? { | x | x == response }
-     puts "Playing #{song}"
-  else
-    puts "Invalid Input, please try later"
-  end
+  puts response
+  puts response
 end
 
 def list(songs_ary)
