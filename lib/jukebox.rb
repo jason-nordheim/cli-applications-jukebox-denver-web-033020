@@ -33,7 +33,7 @@ def play(songs_ary)
   else
     song_index = response.to_i() + 1
     if song_index < songs_ary.count and song_index > 0
-
+      puts "Playing #{songs_ary.at(song_index + 1)}"
     end
   end
 end
